@@ -10,7 +10,7 @@ use Flowframe\Trend\TrendValue;
 
 class TreatmentsChart extends ChartWidget
 {
-    protected static ?string $heading = 'Treatments';
+    protected static ?string $heading = 'Treatments Every Other Month ';
 
     protected function getData(): array
     {
